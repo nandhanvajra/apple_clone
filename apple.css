@@ -1,0 +1,251 @@
+.container{
+    width: 80%;
+    margin:auto;
+}
+.flex1{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    padding:2px;
+    margin-left:16%;
+   
+}
+li{
+    padding:15px;
+   
+}
+ul{
+    list-style-type: none;
+    margin:-2px;
+    padding:0px;
+
+}
+a{
+    text-decoration: none;
+    color:rgb(43, 43, 44);
+    
+    color: rgb(252, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: small;
+     padding:5px 5px;
+     
+  
+    
+}
+.logo{
+    width:11.9rem;
+    height:50px;
+    display:inline-block;
+  
+  
+}
+.logo img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+header{
+    background-color: rgb(55, 55, 55);
+    height:50px;
+   margin-top:-8px;
+   margin-right:-8px;
+   margin-left:-8px;
+    
+}
+.nav2{
+    display:flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content: center;
+    
+    background-color:white;
+    
+}
+.nav2 h4{
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.nav2 a{
+    color: rgb(0, 138, 185);
+    font-size:medium
+
+}
+.nav2{
+    margin-left:-20px;
+}
+.mid a{
+    font-size:45px;
+    color:black;
+    font-weight: bold;
+    
+
+}
+.mid{
+    background-color: rgb(247, 247, 247);
+    
+    text-align: center;
+    padding-top:30px;
+}
+.mid2{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+   
+    padding-top:30px;
+}
+.mid2 a{
+    font-size: 30px;
+    color:black;
+    padding-top:40px;
+    
+}
+.mid3{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    padding-bottom: 300px;
+    padding-top:20px;
+    
+    
+}
+.mid3 a{
+    font-size: 20px;
+    color: rgb(0, 138, 185);
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mid12 a{
+    font-size:45px;
+    color:black;
+    font-weight: bold;
+}
+.mid12{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+}
+.p1{
+    background-image: url("C:/Users/91628/OneDrive/VS CODE/HTML CSS AND JS/hero__cj6i78tzkp8i_large.jpg");
+    text-align: center;
+    padding-bottom: 500px;
+    margin-bottom:60px;
+    margin-top:0px;
+    
+}
+.p1 h1{
+    color:aliceblue;
+    padding-top:30px;
+    font-size: 40px;
+}
+.p2 a{
+    color: rgb(0, 138, 185);
+    font-size: 30px;
+    
+}
+.p2{
+    margin-top:-13px;
+}
+.p33{
+    margin-bottom:40px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p34{
+    background-image: url("cir.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding-bottom:400px;
+    text-align: center;
+}
+.p33 a{
+    color: rgb(0, 138, 185);
+}
+.p3{
+    text-align: center;
+}
+.p31 h1{
+    font-size: 50px;
+}
+.p31{
+    margin-bottom:-30px;
+}
+.p32 h1{
+    font-weight: lighter;
+    
+}
+.p32{
+    margin-bottom:-10px;
+}
+.p33 a{
+    font-size: 25px;
+    padding-right:40px;
+}
+.im2{
+    display: flex;
+    justify-content:space-around;
+    gap:1rem;
+    text-align: center;
+   margin-bottom:10px;
+
+}
+
+
+
+
+.im22,.im21{
+  flex:1;
+}
+.im22{
+    
+   background-image: url("macb.jpeg");
+ 
+    padding-bottom:50px;
+    padding-bottom:400px;
+}
+.im22 h1,h2{
+    color: aliceblue;
+}
+.im21 h1, .im21 h2, .im21 a {
+    margin: 0; /* Re padding-bottom:200px;move default margin */
+    padding: 5px 0; /* Adjust padding as needed */
+}
+
+.im22 h1, .im22 h2, .im22 a {
+    margin: 0; /* Remove default margin */
+    padding: 5px 0; /* Adjust padding as needed */
+}
+
+.im2 a{
+    color: rgb(0, 138, 185);
+    padding:30px;
+    font-size: large;
+}
+.im21 h2{
+    color: black;
+}
+
+.im21{
+    background-image: url("app.jpg");
+    padding-bottom:540px;
+        background-position: top 150px center; /* Adjust these values as needed */
+     background-repeat: no-repeat;
+    
+  
+}
+footer{
+    background-color: rgb(247, 247, 247);
+    padding:5px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.tcm{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:20px;
+}
+
